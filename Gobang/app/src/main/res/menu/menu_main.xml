@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    android:orderInCategory="100"：设定菜单项的优先级，数值越小表示优先级越高。如果菜单有多个选项，它们会按照优先级排序-->
+<!--    android:showAsAction="never"：指定菜单项的显示方式。never 表示永远不在主界面上显示，只能在点击菜单键后才能看到该选项。其他可选值还包括 ifRoom、always 等。-->
+<!--    tools:ignore="AppCompatResource"：忽略 Lint 检测 AppCompatResource 的警告。tools 是 Android Studio 提供的一组帮助开发者开发的工具，其中包含了很多辅助开发的功能-->
+<!--    第一个用backgroud成功了，但第二个有图片，但没有文字，不知道为什吗-->
+    <item
+        android:id="@+id/play_again"
+        android:title="再来一局"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/exit"
+        android:title="退出游戏"
+        android:orderInCategory="2" />
+</menu>
